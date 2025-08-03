@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/proffesional website.png";
 import Zepto from "../../Assets/Projects/Image5.png";
-import blinkit from "../../Assets/Projects/blinkit.png";
+import blinkit from "../../Assets/Projects/blinkit.jpeg";
 import editor from "../../Assets/Projects/portfolio basic.png";
 import chatify from "../../Assets/Projects/eradigicloud.png";
 import bitsOfCode from "../../Assets/Projects/drsrank.png";
