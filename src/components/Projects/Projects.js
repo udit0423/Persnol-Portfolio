@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/proffesional website.png";
+import Zepto from "../../Assets/Projects/Image5.png";
+import blinkit from "../../Assets/Projects/blinkit.png";
 import editor from "../../Assets/Projects/portfolio basic.png";
 import chatify from "../../Assets/Projects/eradigicloud.png";
 import bitsOfCode from "../../Assets/Projects/drsrank.png";
@@ -59,6 +61,26 @@ function Projects() {
               title="persnol portfolio website"
               description="An **advanced personal portfolio website** is a professional, interactive site that showcases your skills, projects, and experience with features like animations, dynamic portfolios, blog posts, responsive design, SEO, and interactive UI elements, offering a comprehensive view of your expertise."
               ghLink="https://github.com/udit0423"
+              demoLink="#"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blinkit}
+              isBlog={false}
+              title="blinkit-sales-insight"
+              description="🔍 Blinkit Data Analysis Dashboard An interactive Power BI dashboard that visualizes Blinkit's retail performance using KPIs, trend analysis, and product insights. Explore sales, customer satisfaction, and inventory distribution to support strategic decision-making. 📊 Built for data storytelling and business insights."
+              ghLink="https://github.com/udit0423/blinkit-sales-insight"
+              demoLink="#"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Zepto}
+              isBlog={false}
+              title="Zepto-Analysis-SQL-Project"
+              description="End-to-end SQL data analyst project using Zepto's 3,700+ product listings. Tasks include data cleaning, exploration, and extracting insights on pricing, inventory, discounts, and stock behavior to support business decisions."
+              ghLink="https://github.com/udit0423/Zepto-Analysis-SQL-Project"
               demoLink="#"
             />
           </Col>
