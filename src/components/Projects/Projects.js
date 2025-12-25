@@ -33,7 +33,7 @@ function Projects() {
               title="🛒 customer Shopping Insights - End-to-End Analytics"
               description="A complete retail analytics project analyzing customer shopping behavior and transactional data. Applied SQL and Python to perform data cleaning, trend analysis, and customer segmentation. Identified key insights on purchase patterns, revenue contribution, repeat customers, and product performance. Built interactive Power BI dashboards to visualize KPIs and support business decision-making."
               ghLink="https://github.com/udit0423/customer-shopping-insights-end-to-end-analytics"
-              demoLink="https://github.com/udit0423/customer-shopping-insights-end-to-end-analytics/blob/main/customer_behavior_dashboard.jpg"
+              demoLink="https://app.powerbi.com/view?r=eyJrIjoiNjBkNDllNDktOTBlMy00MDc1LWE1MjgtOTIyNWUzOTdkMjliIiwidCI6IjQwZDhmOGZkLTc4NjAtNDI5Ny1hODc4LWY5NDY4MTE1YWQxYiJ9&embedImagePlaceholder=true"
             />
           </Col>
                     <Col md={4} className="project-card">
@@ -43,7 +43,7 @@ function Projects() {
               title="🏥 Healthcare Data Analysis & Reporting"
               description="A healthcare analytics project designed to extract insights from patient and hospital datasets. Performed exploratory data analysis and preprocessing using Python to analyze admissions, outcomes, billing trends, and provider performance. Developed interactive Power BI dashboards to present insights for operational efficiency, cost analysis, and healthcare decision support."
               ghLink="https://github.com/udit0423/Healthcare-Data-Analysis-Reporting"
-              demoLink="https://github.com/udit0423/Healthcare-Data-Analysis-Reporting/blob/main/HealthCare_Dashboard.pdf"
+              demoLink="https://app.powerbi.com/view?r=eyJrIjoiOTg0NGM5MGEtZGIyYy00NDQyLThmNzMtN2E1ODFkODc0MTJlIiwidCI6IjQwZDhmOGZkLTc4NjAtNDI5Ny1hODc4LWY5NDY4MTE1YWQxYiJ9&embedImagePlaceholder=true"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -63,7 +63,7 @@ function Projects() {
               title="Zepto-Analysis-SQL-Project"
               description="End-to-end SQL data analyst project using Zepto's 3,700+ product listings. Tasks include data cleaning, exploration, and extracting insights on pricing, inventory, discounts, and stock behavior to support business decisions."
               ghLink="https://github.com/udit0423/Zepto-Analysis-SQL-Project"
-              demoLink="#"
+              demoLink="https://github.com/udit0423/Zepto-Analysis-SQL-Project/blob/main/Zepto%20Analysis%20SQL%20Project.pdf"
             />
           </Col>
           <Col md={4} className="project-card">
