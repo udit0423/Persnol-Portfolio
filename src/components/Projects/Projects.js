@@ -8,6 +8,10 @@ import blinkit from "../../Assets/Projects/blinkit.jpeg";
 import editor from "../../Assets/Projects/portfolio basic.png";
 import chatify from "../../Assets/Projects/eradigicloud.png";
 import bitsOfCode from "../../Assets/Projects/drsrank.png";
+import t20 from "../../Assets/Projects/cricket.jpg";
+import customer from "../../Assets/Projects/customer.jpg";
+import healthcare from "../../Assets/Projects/healthcare.png";
+
 
 function Projects() {
   return (
@@ -21,6 +25,57 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+                    <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={customer}
+              isBlog={false}
+              title="🛒 customer Shopping Insights - End-to-End Analytics"
+              description="A complete retail analytics project analyzing customer shopping behavior and transactional data. Applied SQL and Python to perform data cleaning, trend analysis, and customer segmentation. Identified key insights on purchase patterns, revenue contribution, repeat customers, and product performance. Built interactive Power BI dashboards to visualize KPIs and support business decision-making."
+              ghLink="https://github.com/udit0423/customer-shopping-insights-end-to-end-analytics"
+              demoLink="https://github.com/udit0423/customer-shopping-insights-end-to-end-analytics/blob/main/customer_behavior_dashboard.jpg"
+            />
+          </Col>
+                    <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={healthcare}
+              isBlog={false}
+              title="🏥 Healthcare Data Analysis & Reporting"
+              description="A healthcare analytics project designed to extract insights from patient and hospital datasets. Performed exploratory data analysis and preprocessing using Python to analyze admissions, outcomes, billing trends, and provider performance. Developed interactive Power BI dashboards to present insights for operational efficiency, cost analysis, and healthcare decision support."
+              ghLink="https://github.com/udit0423/Healthcare-Data-Analysis-Reporting"
+              demoLink="https://github.com/udit0423/Healthcare-Data-Analysis-Reporting/blob/main/HealthCare_Dashboard.pdf"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={t20}
+              isBlog={false}
+              title="🏏 T20 Cricket Data Analysis"
+              description="An end-to-end sports analytics project focused on T20 cricket performance analysis. Used Python to clean and analyze multi-season match and player data, uncovering key performance metrics such as strike rate, economy, consistency, and impact under pressure. The project delivers data-driven insights for ideal team selection, player comparison, and match strategy optimization through clear visualizations."
+              ghLink="https://github.com/udit0423/cricket_data_analysis"
+              demoLink="#"
+            />
+          </Col>
+                    <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Zepto}
+              isBlog={false}
+              title="Zepto-Analysis-SQL-Project"
+              description="End-to-end SQL data analyst project using Zepto's 3,700+ product listings. Tasks include data cleaning, exploration, and extracting insights on pricing, inventory, discounts, and stock behavior to support business decisions."
+              ghLink="https://github.com/udit0423/Zepto-Analysis-SQL-Project"
+              demoLink="#"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blinkit}
+              isBlog={false}
+              title="blinkit-sales-insight"
+              description="🔍 Blinkit Data Analysis Dashboard An interactive Power BI dashboard that visualizes Blinkit's retail performance using KPIs, trend analysis, and product insights. Explore sales, customer satisfaction, and inventory distribution to support strategic decision-making. 📊 Built for data storytelling and business insights."
+              ghLink="https://github.com/udit0423/blinkit-sales-insight"
+              demoLink="#"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -39,7 +94,7 @@ function Projects() {
               title="Drs Rank website"
               description="DRS Rank is an online platform that provides detailed rankings and insights into various fields, such as education, business, and technology. It offers users the ability to view and compare rankings of institutions, professionals, and services, helping them make informed decisions. The website also includes reviews, ratings, and performance metrics to support its ranking system."
               ghLink="https://github.com/udit0423"
-              demoLink="#"
+              demoLink="https://www.drsrank.com/"
             />
           </Col>
 
@@ -48,7 +103,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Basic portfolio website"
-              description="A **basic portfolio website** is a simple personal website that highlights your skills, projects, and contact information. It typically includes a brief **About Me** section, a showcase of **projects** or work, and a way to **contact** you. The goal is to present your work and expertise in a clean, easy-to-navigate format."
+              description="A basic portfolio website is a simple personal website that highlights your skills, projects, and contact information. It typically includes a brief About Me section, a showcase of projects or work, and a way to contact you. The goal is to present your work and expertise in a clean, easy-to-navigate format."
               ghLink="https://github.com/udit0423"
               demoLink="https://udit0423.github.io/portfolio/"              
             />
@@ -59,31 +114,13 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="persnol portfolio website"
-              description="An **advanced personal portfolio website** is a professional, interactive site that showcases your skills, projects, and experience with features like animations, dynamic portfolios, blog posts, responsive design, SEO, and interactive UI elements, offering a comprehensive view of your expertise."
+              description="An advanced personal portfolio website is a professional, interactive site that showcases your skills, projects, and experience with features like animations, dynamic portfolios, blog posts, responsive design, SEO, and interactive UI elements, offering a comprehensive view of your expertise."
               ghLink="https://github.com/udit0423"
-              demoLink="#"
+              demoLink="https://persnol-portfolio-gamma.vercel.app/"
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={blinkit}
-              isBlog={false}
-              title="blinkit-sales-insight"
-              description="🔍 Blinkit Data Analysis Dashboard An interactive Power BI dashboard that visualizes Blinkit's retail performance using KPIs, trend analysis, and product insights. Explore sales, customer satisfaction, and inventory distribution to support strategic decision-making. 📊 Built for data storytelling and business insights."
-              ghLink="https://github.com/udit0423/blinkit-sales-insight"
-              demoLink="#"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Zepto}
-              isBlog={false}
-              title="Zepto-Analysis-SQL-Project"
-              description="End-to-end SQL data analyst project using Zepto's 3,700+ product listings. Tasks include data cleaning, exploration, and extracting insights on pricing, inventory, discounts, and stock behavior to support business decisions."
-              ghLink="https://github.com/udit0423/Zepto-Analysis-SQL-Project"
-              demoLink="#"
-            />
-          </Col>
+
+
         </Row>
       </Container>
     </Container>
